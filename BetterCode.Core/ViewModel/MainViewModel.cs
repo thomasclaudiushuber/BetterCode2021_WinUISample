@@ -35,8 +35,11 @@ public class MainViewModel : ViewModelBase
             {
                 _selectedSession = value;
                 OnPropertyChanged();
+                OnPropertyChanged(nameof(IsSessionSelected));
             }
         }
     }
+
+    public bool IsSessionSelected => SelectedSession != null;
 
 }

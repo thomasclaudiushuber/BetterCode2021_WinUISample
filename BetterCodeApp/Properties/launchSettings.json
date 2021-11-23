@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BetterCodeApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "BetterCodeApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
